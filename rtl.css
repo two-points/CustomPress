@@ -1,0 +1,59 @@
+/*
+Theme Name: CustomPress
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+.site-branding {
+    text-align: right;
+}
+.text-right {
+    text-align: left;
+}
+.custompress-header-widget.widget_search form {
+    float: left;
+}
+.custompress-searchform input {
+    border-left-width: 0;
+    border-right-width: .1rem;
+}
+.main-navigation li {
+    float: right;
+}
+.menu li:first-child a {
+    padding-right: 0;
+    padding-left: 15px;
+}
+body {
+    overflow-x: hidden;
+}
+.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
+    float: right;
+}
+.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
+    float: left;
+    text-align: left;
+}
+#colophon .scroll-to-top{
+    left: 15px;
+    right: auto;
+}
+.custompress-single-post .entry-header {
+    text-align: right;
+}
+.widget.tp-panel ul {
+    margin-right: 0rem;
+    padding-right: 0rem;
+}
+.widget_nav_menu .menu li a {
+    padding-right: 0;
+}
+.widget.tp-panel > div > ul li a::before, .widget.tp-panel > ul li a::before, .widget.tp-panel > ul li::before, .widget.tp-panel > ul > li > span::before {
+    margin-right: 0px;
+    margin-left: 8px;
+}

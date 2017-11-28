@@ -1,0 +1,47 @@
+/*!
+Theme Name: CustomPress
+Theme URI: https://wp-custompress.com
+Author: TwoPoints
+Author URI:
+Description: CustomPress is one of the most customizable WordPress theme ever. You can use WordPress Customizer with live preview to edit almost any setting in your website. It is lightweight, fast, fully responsive and customizable. It works on all devices & resolutions & all latest browsers. CustomPress is a well-coded, well-supported solid platform to kick-off your blog website.
+Version: 1.0.3
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl.html
+Text Domain: custompress
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+*/
+
+
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+//Elements
+@import "elements/elements";
+
+//Navigation
+@import "navigation/navigation";
+
+//Accessibility
+@import "modules/accessibility";
+
+//Alignments
+@import "modules/alignments";
+
+//Clearings
+@import "modules/clearings";
+
+//Widgets
+@import "site/secondary/widgets";
+
+//Content
+@import "site/site";
+
+//Infinite scroll
+@import "modules/infinite-scroll";
+
+//Media
+@import "media/media";
+
+//Custom
+@import "custom";

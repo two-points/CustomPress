@@ -1,0 +1,952 @@
+# Copyright (C) 2017 TwoPoints
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: CustomPress 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/custompress\n"
+"POT-Creation-Date: 2017-11-24 09:41:25+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:12
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:16
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:25
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+
+#: 404.php:42
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. translators: %s: post title
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:47 comments.php:70
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:50 comments.php:73
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:51 comments.php:74
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:97
+msgid "Enter your comment..."
+msgstr ""
+
+#: comments.php:102
+msgid "Name"
+msgstr ""
+
+#: comments.php:105
+msgid "Email"
+msgstr ""
+
+#: comments.php:108
+msgid "Website"
+msgstr ""
+
+#: comments.php:116
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:117
+msgid "Cancel Comment"
+msgstr ""
+
+#: comments.php:118
+msgid "Post Comment"
+msgstr ""
+
+#: footer.php:38
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. translators: %s: CMS name, i.e. WordPress.
+
+#: footer.php:40
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. translators: 1: Theme name, 2: Theme author.
+
+#: footer.php:44
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:33
+msgid "Primary"
+msgstr ""
+
+#: functions.php:87
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:89
+msgid "This is primary sidebar. Add widgets like search bar, newsletter subscription, recent posts etc here."
+msgstr ""
+
+#: functions.php:97
+msgid "Header Widget Area"
+msgstr ""
+
+#: functions.php:99 functions.php:109
+msgid "You can use this widget area for a custom menu or a advertisement."
+msgstr ""
+
+#: functions.php:107
+msgid "Advertisement Sidebar"
+msgstr ""
+
+#: functions.php:117
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:119
+msgid "This is page sidebar."
+msgstr ""
+
+#: functions.php:127
+msgid "Social Footer"
+msgstr ""
+
+#: functions.php:129
+msgid "You can use this widget area for a social widget or a advertisement."
+msgstr ""
+
+#: functions.php:137
+msgid "Middle Lower Footer Widget area"
+msgstr ""
+
+#: functions.php:139
+msgid "You can use this widget area for a social media or logo etc in the lower footer."
+msgstr ""
+
+#: header.php:13
+msgid "Skip to content"
+msgstr ""
+
+#: inc/custom-comments.php:27
+msgid "&#8226; Post Author &#8226;"
+msgstr ""
+
+#. translators: 1: comment date.
+
+#: inc/custom-comments.php:33
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/custom-comments.php:37
+msgid "Comment is awaiting approval"
+msgstr ""
+
+#: inc/custom-comments.php:47
+msgid "Reply"
+msgstr ""
+
+#: inc/custom-comments.php:48
+msgid "Edit"
+msgstr ""
+
+#: inc/customizer/color-settings.php:4
+msgid "Color Settings"
+msgstr ""
+
+#: inc/customizer/color-settings.php:5
+msgid "Customize your website's colors here."
+msgstr ""
+
+#: inc/customizer/color-settings.php:14
+msgid "Body Background"
+msgstr ""
+
+#: inc/customizer/color-settings.php:32
+msgid "Header Background"
+msgstr ""
+
+#: inc/customizer/color-settings.php:50
+msgid "Navigation Background"
+msgstr ""
+
+#: inc/customizer/color-settings.php:68
+msgid "Menu text Color"
+msgstr ""
+
+#: inc/customizer/color-settings.php:86
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer/color-settings.php:128
+msgid "Footer Background"
+msgstr ""
+
+#: inc/customizer/color-settings.php:146
+msgid "Footer text Color"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:4
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:5
+msgid "Customize your website's footer here."
+msgstr ""
+
+#: inc/customizer/footer-settings.php:14
+msgid "Footer - Left Text"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:18
+msgid "(c) 2017 - All Rights Reserved."
+msgstr ""
+
+#: inc/customizer/general-option.php:5
+msgid "Hide Site Title"
+msgstr ""
+
+#: inc/customizer/general-option.php:10
+msgid "Select this option to hide site title."
+msgstr ""
+
+#: inc/customizer/general-option.php:15
+msgid "Hide Site Description"
+msgstr ""
+
+#: inc/customizer/general-option.php:20
+msgid "Select this option to hide site description."
+msgstr ""
+
+#: inc/customizer/general-option.php:27
+msgid "Logo Width (in px)"
+msgstr ""
+
+#: inc/customizer/general-option.php:31
+msgid "You can increase or decrease logo width using this slider."
+msgstr ""
+
+#: inc/customizer/general-option.php:50
+msgid "Logo Height (in px)"
+msgstr ""
+
+#: inc/customizer/general-option.php:54
+msgid "You can increase or decrease logo height using this slider."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:6
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:10
+msgid "Header Layout"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:11
+msgid "Customize your header layout here."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:21
+msgid "Header Within Container"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:25
+msgid "Select this option to display site header within container."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:30
+msgid "Header Background Image"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:34
+msgid "Choose header background image."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:39
+msgid "Header Alignment"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:43
+msgid "Select the header alignment."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:45 inc/customizer/layout-settings.php:195
+#: inc/customizer/post-settings.php:49 inc/customizer/post-settings.php:110
+#: inc/customizer/post-settings.php:163 inc/customizer/post-settings.php:220
+#: inc/customizer/post-settings.php:245 inc/customizer/post-settings.php:355
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:46 inc/customizer/layout-settings.php:258
+#: inc/customizer/post-settings.php:111 inc/customizer/post-settings.php:164
+#: inc/customizer/post-settings.php:246
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:60
+msgid "Header Panel Spacing"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:62
+msgid "Manage spacing for panels which are displayed in header section."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:78
+msgid "Stick Header"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:82
+msgid "Select this option to show stick header."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:87
+msgid "Container Layout"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:88
+msgid "Customize your container layout here."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:98
+msgid "Container Max. Width (in rem)"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:102
+msgid "You can increase or decrease container's maximum width using this slider."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:121
+msgid "Sidebar Width (in %)"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:124
+msgid "You can increase or decrease sidebar's % width using this slider."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:159
+msgid "Content Panel Spacing"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:161
+msgid "Manage spacing for panels which are displayed in content section."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:178
+msgid "Advertisement Layout"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:179
+msgid "Customize your advertisement layout here."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:187
+msgid "Advertisement sidebar layout"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:191
+msgid "Select position for adv sidebar. You need to add widget in advertisement sidebar first."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:192
+msgid "You need to add widget in advertisement sidebar first."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:194
+msgid "No Adv"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:196 inc/customizer/post-settings.php:51
+#: inc/customizer/post-settings.php:112 inc/customizer/post-settings.php:165
+#: inc/customizer/post-settings.php:222 inc/customizer/post-settings.php:247
+#: inc/customizer/post-settings.php:357
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:203
+msgid "Footer Layout"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:204
+msgid "Customize your footer layout here."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:212
+msgid "Footer Within Container"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:216
+msgid "Select this option to display footer within container."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:223
+msgid "Footer Panel Spacing"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:225
+msgid "Manage spacing for panels which are displayed in footer section."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:241
+msgid "Hide Back up to top button"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:245
+msgid "Select this option to hide Back up to top button."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:251
+msgid "Site Footer Alignment"
+msgstr ""
+
+#: inc/customizer/layout-settings.php:255
+msgid "Select the footer alignment."
+msgstr ""
+
+#: inc/customizer/layout-settings.php:257
+msgid "Left-Right"
+msgstr ""
+
+#: inc/customizer/post-settings.php:5
+msgid "Posts & Pages Settings"
+msgstr ""
+
+#: inc/customizer/post-settings.php:9
+msgid "Archive Page Settings"
+msgstr ""
+
+#: inc/customizer/post-settings.php:10
+msgid "Customize your posts displayed on archive pages."
+msgstr ""
+
+#: inc/customizer/post-settings.php:18
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/post-settings.php:22
+msgid "This setting will be ignored if \"Display Full Post\" setting is selected."
+msgstr ""
+
+#: inc/customizer/post-settings.php:23
+msgid "Select number of words to be displayed in except."
+msgstr ""
+
+#: inc/customizer/post-settings.php:33
+msgid "Hide Excerpt "
+msgstr ""
+
+#: inc/customizer/post-settings.php:37
+msgid "You can hide excerpt on archive pages by selecting this option."
+msgstr ""
+
+#: inc/customizer/post-settings.php:43
+msgid "Archive blog sidebar layout"
+msgstr ""
+
+#: inc/customizer/post-settings.php:47
+msgid "Select for archive blog layout"
+msgstr ""
+
+#: inc/customizer/post-settings.php:50 inc/customizer/post-settings.php:221
+#: inc/customizer/post-settings.php:356
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/post-settings.php:57
+msgid "Post Display layout"
+msgstr ""
+
+#: inc/customizer/post-settings.php:61
+msgid "Select display post layout."
+msgstr ""
+
+#: inc/customizer/post-settings.php:63
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer/post-settings.php:64 inc/customizer/post-settings.php:98
+msgid "Full"
+msgstr ""
+
+#: inc/customizer/post-settings.php:70
+msgid "Display Full Post"
+msgstr ""
+
+#: inc/customizer/post-settings.php:74
+msgid "Select this option to display full posts on home page."
+msgstr ""
+
+#: inc/customizer/post-settings.php:79 inc/customizer/post-settings.php:205
+#: inc/customizer/post-settings.php:339
+msgid "Hide Featured Image"
+msgstr ""
+
+#: inc/customizer/post-settings.php:83
+msgid "You can hide featured image on archive pages by selecting this option."
+msgstr ""
+
+#: inc/customizer/post-settings.php:88
+msgid "Featured Image Size"
+msgstr ""
+
+#: inc/customizer/post-settings.php:92 inc/customizer/post-settings.php:108
+msgid "Select the size for the featured image to be displayed."
+msgstr ""
+
+#: inc/customizer/post-settings.php:94
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/customizer/post-settings.php:95
+msgid "Medium"
+msgstr ""
+
+#: inc/customizer/post-settings.php:96
+msgid "Medium-Large"
+msgstr ""
+
+#: inc/customizer/post-settings.php:97
+msgid "Large"
+msgstr ""
+
+#: inc/customizer/post-settings.php:104
+msgid "Featured Image Alignment"
+msgstr ""
+
+#: inc/customizer/post-settings.php:119 inc/customizer/post-settings.php:229
+msgid "Featured Image Above title"
+msgstr ""
+
+#: inc/customizer/post-settings.php:123
+msgid "You can display featured image above post title by selecting this option."
+msgstr ""
+
+#: inc/customizer/post-settings.php:129
+msgid "Display Icons for Metadata"
+msgstr ""
+
+#: inc/customizer/post-settings.php:133
+msgid "You can display icons instead of text for post metadata."
+msgstr ""
+
+#: inc/customizer/post-settings.php:139
+msgid "Display Read More Button"
+msgstr ""
+
+#: inc/customizer/post-settings.php:143
+msgid "Select this option to display read more button."
+msgstr ""
+
+#: inc/customizer/post-settings.php:148
+msgid "Read More Button Label"
+msgstr ""
+
+#: inc/customizer/post-settings.php:152
+msgid "Enter the text"
+msgstr ""
+
+#: inc/customizer/post-settings.php:157
+msgid "Read More Button Alignment"
+msgstr ""
+
+#: inc/customizer/post-settings.php:161
+msgid "Select the alignment for the readmore button to be displayed."
+msgstr ""
+
+#: inc/customizer/post-settings.php:177
+msgid "Show Default Thumbnail Image "
+msgstr ""
+
+#: inc/customizer/post-settings.php:181
+msgid "You can show default image on archive pages by selecting this option."
+msgstr ""
+
+#: inc/customizer/post-settings.php:186
+msgid "Upload Default Thumbnail Image"
+msgstr ""
+
+#: inc/customizer/post-settings.php:190
+msgid "You can display default thumbnail image."
+msgstr ""
+
+#: inc/customizer/post-settings.php:196
+msgid "Single Post Settings"
+msgstr ""
+
+#: inc/customizer/post-settings.php:197
+msgid "Customize your posts displayed on single post page."
+msgstr ""
+
+#: inc/customizer/post-settings.php:209
+msgid "You can hide featured image on single post by selecting this option."
+msgstr ""
+
+#: inc/customizer/post-settings.php:214
+msgid "Single blog layout"
+msgstr ""
+
+#: inc/customizer/post-settings.php:218
+msgid "Select for single blog layout"
+msgstr ""
+
+#: inc/customizer/post-settings.php:233
+msgid "You can display featured image above post title by selecting this option on single post page."
+msgstr ""
+
+#: inc/customizer/post-settings.php:239
+msgid "Title Alignment"
+msgstr ""
+
+#: inc/customizer/post-settings.php:243
+msgid "Select the alignment for title on single blog post. ( Its not applicable on post banner.)"
+msgstr ""
+
+#: inc/customizer/post-settings.php:259
+msgid "Show Post Banner"
+msgstr ""
+
+#: inc/customizer/post-settings.php:263
+msgid "You can show post banner on single post by selecting this option."
+msgstr ""
+
+#: inc/customizer/post-settings.php:268
+msgid "Post Banner Background"
+msgstr ""
+
+#: inc/customizer/post-settings.php:274
+msgid "Featured Image"
+msgstr ""
+
+#: inc/customizer/post-settings.php:275
+msgid "Use featured image as banner background image."
+msgstr ""
+
+#: inc/customizer/post-settings.php:278
+msgid "Default Image"
+msgstr ""
+
+#: inc/customizer/post-settings.php:279
+msgid "Use Default image as banner background image."
+msgstr ""
+
+#: inc/customizer/post-settings.php:282
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer/post-settings.php:283
+msgid "Use Background color as banner background."
+msgstr ""
+
+#: inc/customizer/post-settings.php:286
+msgid "Select this option for only banner background."
+msgstr ""
+
+#: inc/customizer/post-settings.php:292
+msgid "Upload Default Banner Image"
+msgstr ""
+
+#: inc/customizer/post-settings.php:295
+msgid "This option are only applicable when you can choose post banner background option as default image Or When you choose as featured image but in post cannot set featured image. "
+msgstr ""
+
+#: inc/customizer/post-settings.php:296
+msgid "You can display default banner image for post banner."
+msgstr ""
+
+#: inc/customizer/post-settings.php:301
+msgid "Default Banner Color"
+msgstr ""
+
+#: inc/customizer/post-settings.php:304
+msgid "This option are only applicable when you can choose post banner background option as Background color."
+msgstr ""
+
+#: inc/customizer/post-settings.php:305
+msgid "You can display default banner background color for post banner."
+msgstr ""
+
+#: inc/customizer/post-settings.php:311
+msgid "Hide author box"
+msgstr ""
+
+#: inc/customizer/post-settings.php:315
+msgid "Select this option to hide author box on single blog page."
+msgstr ""
+
+#: inc/customizer/post-settings.php:321
+msgid "Hide Navigation"
+msgstr ""
+
+#: inc/customizer/post-settings.php:325
+msgid "Select this option to hide navigation on single blog page."
+msgstr ""
+
+#: inc/customizer/post-settings.php:330
+msgid "Single Page Settings"
+msgstr ""
+
+#: inc/customizer/post-settings.php:331
+msgid "Customize your pagesettings."
+msgstr ""
+
+#: inc/customizer/post-settings.php:343
+msgid "You can hide featured image on the page by selecting this option."
+msgstr ""
+
+#: inc/customizer/post-settings.php:349
+msgid "Single Page layout"
+msgstr ""
+
+#: inc/customizer/post-settings.php:353
+msgid "Select for single page layout"
+msgstr ""
+
+#: inc/customizer/typography-settings.php:4
+msgid "Typography Settings"
+msgstr ""
+
+#: inc/customizer/typography-settings.php:5
+msgid "Customize your website's typography here."
+msgstr ""
+
+#: inc/customizer/typography-settings.php:14
+msgid "Body Typography"
+msgstr ""
+
+#: inc/customizer/typography-settings.php:32
+msgid "Heading Typography"
+msgstr ""
+
+#: inc/kirki/include-kirki.php:50
+msgid "To make your experience better with theme customization, we have integrated this theme with a powerful customizer plugin. Install it for free!"
+msgstr ""
+
+#: inc/kirki/include-kirki.php:51
+msgid "Install Kirki Toolkit now"
+msgstr ""
+
+#: inc/kirki/include-kirki.php:52
+msgid "Install Now"
+msgstr ""
+
+#: inc/kirki/include-kirki.php:55
+msgid "You have installed Kirki. Activate it to take advantage of this theme's features in the customizer."
+msgstr ""
+
+#: inc/kirki/include-kirki.php:56
+msgid "Activate Kirki Toolkit now"
+msgstr ""
+
+#: inc/kirki/include-kirki.php:57
+msgid "Activate Now"
+msgstr ""
+
+#. translators: %s: post date.
+
+#: inc/template-tags.php:33
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+
+#: inc/template-tags.php:44
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+
+#: inc/template-tags.php:66
+msgid "<span class=\"screen-reader-text\">Posted in:</span> %1$s"
+msgstr ""
+
+#. translators: 1: list of categories.
+
+#: inc/template-tags.php:70 single.php:16
+msgid "Posted in: %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+
+#: inc/template-tags.php:75
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+
+#: inc/template-tags.php:79
+msgid "<span class=\"screen-reader-text\">Tagged</span> %1$s"
+msgstr ""
+
+#. translators: 1: list of tags.
+
+#: inc/template-tags.php:83
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+
+#: inc/template-tags.php:94
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+
+#: inc/template-tags.php:111 template-parts/content-page.php:41
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/woocommerce.php:227
+msgid "View your shopping cart"
+msgstr ""
+
+#. translators: number of items in the mini cart.
+
+#: inc/woocommerce.php:229
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: index.php:61
+msgid "<span class=\"button\">Newer Posts</span>"
+msgstr ""
+
+#: index.php:62
+msgid "<span class=\"button\">Older Posts</span>"
+msgstr ""
+
+#. translators: %s: search query.
+
+#: search.php:15
+msgid "Search Results for : %s"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search this website..."
+msgstr ""
+
+#: single.php:13
+msgid " &#8226; "
+msgstr ""
+
+#: single.php:76
+msgid "<span class=\"button\">Next Post</span>"
+msgstr ""
+
+#: single.php:77
+msgid "<span class=\"button\">Previous Post</span>"
+msgstr ""
+
+#: template-parts/authorbox.php:15
+msgid "Author: "
+msgstr ""
+
+#: template-parts/authorbox.php:32
+msgid "View all posts by "
+msgstr ""
+
+#: template-parts/content-none.php:4
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+
+#: template-parts/content-none.php:15
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:28
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:28 template-parts/content.php:144
+#: template-parts/full-width-blank.php:18
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+
+#: template-parts/content.php:133
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content.php:171
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content.php:180
+msgid "Sticky Post"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "CustomPress"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://wp-custompress.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "CustomPress is one of the most customizable WordPress theme ever. You can use WordPress Customizer with live preview to edit almost any setting in your website. It is lightweight, fast, fully responsive and customizable. It works on all devices & resolutions & all latest browsers. CustomPress is a well-coded, well-supported solid platform to kick-off your blog website."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "TwoPoints"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width Blank"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Left Sidebar"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Right Sidebar"
+msgstr ""
