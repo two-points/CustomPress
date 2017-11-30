@@ -46,3 +46,4 @@ CustomPress includes support for Infinite Scroll in Jetpack.
 * milligram.css https://milligram.io/, Designed by CJ Patoilo, [MIT](http://opensource.org/licenses/MIT)
 * slicknav http://slicknav.io/, Copyright (c) 2016 Josh Cope, [MIT](http://opensource.org/licenses/MIT)
 * kirki https://aristath.github.io/kirki/, Copyright (c) 2017 Aristeides Stathopoulos, [MIT](http://opensource.org/licenses/MIT)
+* Theme screenshot image - https://pixabay.com/en/season-box-celebrate-celebration-1985856/, [CC0 Creative Commons](https://creativecommons.org/publicdomain/zero/1.0/deed.en)

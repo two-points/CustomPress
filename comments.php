@@ -94,7 +94,7 @@ if ( post_password_required() ) {
 
 		<div class="custompress-comments-form">
 			<?php
-				$custompress_comment_field = '<div class="comment-form-textarea form-group column"><textarea id="comment" name="comment" cols="45" rows="12" aria-required="true" class="form-control " placeholder="'. esc_html__('Enter your comment...', 'custompress') .'"></textarea></div>';
+				$custompress_comment_field = '<div class="comment-form-textarea form-group column"><textarea id="comment" name="comment" cols="45" rows="12" aria-required="true" class="form-control " placeholder="'. esc_html__('Enter your comment&hellip;', 'custompress') .'"></textarea></div>';
 
 				$sp_fields =  array(
 
