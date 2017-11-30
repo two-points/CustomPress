@@ -31,7 +31,43 @@ CustomPress_Kirki::add_field( 'custompress_theme', array(
 	'section'  => 'header_layout',
 	'type'     => 'image',
 	'default'  => '',
-    'tooltip' => esc_html__( 'Choose header background image.', 'custompress' )
+    'tooltip'  => esc_html__( 'Choose header background image.', 'custompress' ),
+    'output'   => array(
+        array(
+            'element' => '.site-header',
+            'property' => 'background-image'
+        ),
+        array(
+            'element' => '.site-header',
+            'property' => 'background-size',
+            'value_pattern' => 'cover'
+        ),
+        array(
+            'element' => '.site-header',
+            'property' => '-o-background-size',
+            'value_pattern' => 'cover'
+        ),
+        array(
+            'element' => '.site-header',
+            'property' => '-moz-background-size',
+            'value_pattern' => 'cover'
+        ),
+        array(
+            'element' => '.site-header',
+            'property' => '-webkit-background-size',
+            'value_pattern' => 'cover'
+        ),
+        array(
+            'element' => '.site-header',
+            'property' => 'background-position',
+            'value_pattern' => '50% 50%'
+        ),
+        array(
+            'element' => '.site-header',
+            'property' => 'background-repeat',
+            'value_pattern' => 'no-repeat'
+        ),
+    ),
 ) );
 
 CustomPress_Kirki::add_field( 'custompress_theme', array(

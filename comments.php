@@ -99,13 +99,13 @@ if ( post_password_required() ) {
 				$sp_fields =  array(
 
 				  'author' =>
-					'<div class="comment-form-author form-group column column-33"><input id="author" placeholder="'. esc_html__('Name', 'custompress') .'" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .'" size="30" class="form-control" required /></div>',
+					'<div class="comment-form-author form-group column column-33"><input id="author" placeholder="'. esc_attr__('Name', 'custompress') .'" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .'" size="30" class="form-control" required /></div>',
 
 				  'email' =>
-					'<p class="comment-form-email form-group column column-33"><input id="email" placeholder="'. esc_html__('Email', 'custompress') .'" name="email" type="email" value="' . esc_attr(  $commenter['comment_author_email'] ) .'" size="30" class="form-control" required /></p>',
+					'<p class="comment-form-email form-group column column-33"><input id="email" placeholder="'. esc_attr__('Email', 'custompress') .'" name="email" type="email" value="' . esc_attr(  $commenter['comment_author_email'] ) .'" size="30" class="form-control" required /></p>',
 
 				  'url' =>
-					'<p class="comment-form-url form-group column column-33"><input id="url" placeholder="'. esc_html__('Website', 'custompress') .'" name="url" type="url" value="' . esc_attr( $commenter['comment_author_url'] ) .'" size="30" class="form-control" /></p>',
+					'<p class="comment-form-url form-group column column-33"><input id="url" placeholder="'. esc_attr__('Website', 'custompress') .'" name="url" type="url" value="' . esc_attr( $commenter['comment_author_url'] ) .'" size="30" class="form-control" /></p>',
 				);
 
 

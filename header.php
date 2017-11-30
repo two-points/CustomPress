@@ -102,40 +102,25 @@
 		</nav><!-- #site-navigation -->
 
 		<?php if ( get_theme_mod( 'hide_fixed_header' ) ) : ?>
-						<div class="custompress-main-navbar appear-fixed-on-scroll">
+			<div class="custompress-main-navbar appear-fixed-on-scroll">
 
-								<nav id="site-navigation" class="main-navigation <?php if ( !get_theme_mod( 'header_in_container' ) ) : echo 'site-navigation'; endif; ?>">
-										<div class="container">
-											<div class="row">
-												<div class="column">
-													<div class="<?php if ( get_theme_mod( 'header_in_container' ) ) : echo 'site-navigation'; endif; ?>">
-														<?php
-															wp_nav_menu( array(
-																'theme_location' => 'menu-1',
-																'menu_id'        => 'primary-menu',
-															) );
-														?>
-													</div>
-												</div>
-											</div>
-										</div>
-
-		                        </nav><!-- #site-navigation -->
-						</div><!-- /.shreeja-main-navbar appear-fixed-on-scroll -->
+				<nav id="site-navigation" class="main-navigation <?php if ( !get_theme_mod( 'header_in_container' ) ) : echo 'site-navigation'; endif; ?>">
+					<div class="container">
+						<div class="row">
+							<div class="column">
+								<div class="<?php if ( get_theme_mod( 'header_in_container' ) ) : echo 'site-navigation'; endif; ?>">
+									<?php
+										wp_nav_menu( array(
+											'theme_location' => 'menu-1',
+											'menu_id'        => 'primary-menu',
+										) );
+									?>
+								</div>
+							</div>
+						</div>
+					</div>
+                </nav><!-- #site-navigation -->
+			</div><!-- /.custompress-main-navbar appear-fixed-on-scroll -->
 		<?php endif; ?>
-
-		<?php if (get_theme_mod( 'header_background_img' ) ) : ?>
-					<style media="screen">
-						.site-header {
-							background-image: url('<?php echo esc_url( get_theme_mod( 'header_background_img' ) ); ?>');
-							background-repeat: no-repeat  !important;
-							background-position: 50% 50%;
-							-webkit-background-size: cover;
-							-moz-background-size:    cover;
-							-o-background-size:      cover;
-							background-size:         cover;
-						}
-					</style>
-	            <?php endif; ?>
 
 	</header><!-- #masthead -->

@@ -34,10 +34,14 @@ CustomPress is one of the most customizable WordPress theme ever. You can use Wo
 
 CustomPress includes support for Infinite Scroll in Jetpack.
 
+
+
 == Changelog ==
 
-= 1.0.1 - Nov 24 2017 =
+= 1.0.4 - Nov 30 2017 =
 * Initial release
+
+
 
 == Credits ==
 
@@ -47,3 +51,4 @@ CustomPress includes support for Infinite Scroll in Jetpack.
 * slicknav http://slicknav.io/, Copyright (c) 2016 Josh Cope, [MIT](http://opensource.org/licenses/MIT)
 * kirki https://aristath.github.io/kirki/, Copyright (c) 2017 Aristeides Stathopoulos, [MIT](http://opensource.org/licenses/MIT)
 * Theme screenshot image - https://pixabay.com/en/season-box-celebrate-celebration-1985856/, [CC0 Creative Commons](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+* TGM Plugin Activation http://tgmpluginactivation.com/ [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)

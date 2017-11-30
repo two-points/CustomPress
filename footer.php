@@ -55,7 +55,7 @@
 								<div class="<?php //if ( get_theme_mod( 'footer_in_container' ) ) : echo 'site-footer'; endif; ?>">
 									<div class="row">
 										<div class="column">
-											<p class="mb-0">(c) Copyright 2017 - All Rights Reserved</p>
+											<p class="mb-0"><?php esc_html_e( '(c) Copyright 2017 - All Rights Reserved', 'custompress' ) ?></p>
 										</div>
 										<!-- /.column -->
 										<?php if ( is_active_sidebar( 'middle-lower-footer' ) ) : ?>
@@ -64,7 +64,7 @@
 											</div>
 				                        <?php endif; ?>
 										<div class="column text-right">
-											<p class="mb-0"><a href="https://wp-custompress.com/">CustomPress Theme</a> by TwoPoints</p>
+											<p class="mb-0"><?php wp_kses_post( _e('<a href="https://wp-custompress.com/">CustomPress Theme</a> by TwoPoints', 'custompress') )  ?></p>
 										</div>
 										<!-- /.column -->
 									</div>
