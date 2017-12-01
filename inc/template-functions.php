@@ -30,3 +30,59 @@ function custompress_pingback_header() {
 	}
 }
 add_action( 'wp_head', 'custompress_pingback_header' );
+
+
+/**
+* Add welcome page
+*/
+function custompress_add_welcome_page() {
+    $_name = __( 'CustomPress Help' , 'custompress' );
+
+    $theme_page = add_theme_page(
+        $_name,
+        $_name,
+        'edit_theme_options',
+        'about-custompress',
+        'custompress_welcome_page'
+    );
+}
+add_action( 'admin_menu', 'custompress_add_welcome_page' );
+
+
+function custompress_welcome_page() {
+	include_once( 'views/about.php' );
+}
+
+
+/**
+* Add help button on admin navbar
+*/
+function custompress_add_help_button() {
+	if ( ! current_user_can( 'edit_theme_options' ) ) {
+		return;
+	}
+
+	global $wp_admin_bar;
+
+	$args = array(
+		'id'     => 'custompress-help',
+		'parent' => 'top-secondary',
+		'title'  => __( 'Theme Help', 'custompress' ),
+		'href'   => admin_url( 'themes.php?page=about-custompress' ),
+		'meta'   => array(
+			'class'    => 'custompress-help-bar',
+		),
+	);
+	$wp_admin_bar->add_menu( $args );
+
+}
+add_action( 'wp_before_admin_bar_render', 'custompress_add_help_button' );
+
+
+/**
+* Add admin styles
+*/
+function custompress_admin_style() {
+	wp_enqueue_style( 'custompress-admin', get_template_directory_uri() . '/css/custompress-admin.css' );
+}
+add_action( 'admin_init' , 'custompress_admin_style' );
