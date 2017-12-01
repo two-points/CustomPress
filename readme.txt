@@ -1,15 +1,15 @@
 === CustomPress ===
 
 Contributors: TwoPoints
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, left-sidebar, right-sidebar, flexible-header, full-width-template, rtl-language-support, sticky-post, theme-options, blog
 
 Requires at least: 4.0
-Tested up to: 4.9
-Stable tag: 1.0.1
+Tested up to: 4.9.1
+Stable tag: 1.0.5
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl.html
 
-CustomPress is one of the most customizable WordPress theme ever. You can use WordPress Customizer with live preview to edit almost any setting in your website. It is lightweight, fast, fully responsive and customizable. It works on all devices & resolutions & all latest browsers. CustomPress is a well-coded, well-supported solid platform to kick-off your blog website.
+CustomPress is one of the most customizable WordPress theme ever. You can use WordPress Customizer with live preview to edit almost any setting on your website. It is lightweight, fast, fully responsive and customizable. It works on all devices, resolutions & all latest browsers. CustomPress is a well-coded, well-supported solid platform to kick-off your blog website. It also works well with all WordPress page builders like SiteOrigin, Beaver Builder, Elementor etc. The main style.css file is just 20kb (less than 10kb gzipped) including styling for responsive media queries.
 
 
 == Copyright ==
@@ -20,7 +20,7 @@ CustomPress is distributed under the terms of the GNU GPL
 
 == Description ==
 
-CustomPress is one of the most customizable WordPress theme ever. You can use WordPress Customizer with live preview to edit almost any setting in your website. It is lightweight, fast, fully responsive and customizable. It works on all devices & resolutions & all latest browsers. CustomPress is a well-coded, well-supported solid platform to kick-off your blog website.
+CustomPress is one of the most customizable WordPress theme ever. You can use WordPress Customizer with live preview to edit almost any setting on your website. It is lightweight, fast, fully responsive and customizable. It works on all devices, resolutions & all latest browsers. CustomPress is a well-coded, well-supported solid platform to kick-off your blog website. It also works well with all WordPress page builders like SiteOrigin, Beaver Builder, Elementor etc. The main style.css file is just 20kb (less than 10kb gzipped) including styling for responsive media queries.
 
 == Installation ==
 
@@ -37,6 +37,10 @@ CustomPress includes support for Infinite Scroll in Jetpack.
 
 
 == Changelog ==
+
+= 1.0.5 - Nov 30 2017 =
+* Add help and plugin recommendations
+* Fix some responsive issues
 
 = 1.0.4 - Nov 30 2017 =
 * Initial release

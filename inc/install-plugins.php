@@ -33,7 +33,14 @@ function custompress_register_required_plugins() {
 		array(
 			'name'      => 'Kirki',
 			'slug'      => 'kirki',
-			'required'  => false,
+		),
+		array(
+			'name'      => 'Page Builder by SiteOrigin',
+			'slug'      => 'siteorigin-panels',
+		),
+		array(
+			'name'      => 'SiteOrigin Widgets Bundle',
+			'slug'      => 'so-widgets-bundle',
 		),
 
 	);

@@ -3,12 +3,12 @@ Theme Name: CustomPress
 Theme URI: https://wp-custompress.com
 Author: TwoPoints
 Author URI:
-Description: CustomPress is one of the most customizable WordPress theme ever. You can use WordPress Customizer with live preview to edit almost any setting in your website. It is lightweight, fast, fully responsive and customizable. It works on all devices & resolutions & all latest browsers. CustomPress is a well-coded, well-supported solid platform to kick-off your blog website.
-Version: 1.0.4
+Description: CustomPress is one of the most customizable WordPress theme ever. You can use WordPress Customizer with live preview to edit almost any setting on your website. It is lightweight, fast, fully responsive and customizable. It works on all devices, resolutions & all latest browsers. CustomPress is a well-coded, well-supported solid platform to kick-off your blog website. It also works well with all WordPress page builders like SiteOrigin, Beaver Builder, Elementor etc. The main style.css file is just 20kb (less than 10kb gzipped) including styling for responsive media queries.
+Version: 1.0.5
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl.html
 Text Domain: custompress
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, left-sidebar, right-sidebar, flexible-header, full-width-template, rtl-language-support, sticky-post, theme-options, blog
 
 */
 
@@ -45,3 +45,6 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 
 //Custom
 @import "custom";
+
+//Responsive
+@import "responsive";

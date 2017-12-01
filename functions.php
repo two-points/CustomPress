@@ -203,6 +203,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 // Make sure Kirki (and other plugins) is included
 require_once get_template_directory() . '/inc/install-plugins.php';
+require_once get_template_directory() . '/inc/kirki/include-kirki.php';
 require_once get_template_directory() . '/inc/kirki/custompress-kirki.php';
 
 // Customizer settingd
