@@ -37,9 +37,14 @@
                 <!-- /.welcome-panel-column -->
 
                 <div class="welcome-panel-column welcome-panel-last">
-                    <h3><?php esc_html_e( 'How to create screenshot like homepage?', 'custompress' ) ?></h3>
+                    <h3><?php esc_html_e( 'Create a well-designed page in less than 5 minutes?', 'custompress' ) ?></h3>
                     <div class="cp-mb-2">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/oygZTMQlj-s?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/wOw39T_s_cg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="cp-mb-2">
+                        <h4 style="margin-bottom: 0"><?php esc_html_e( 'More Tutorials:', 'custompress' ) ?></h4>
+                        <a href="https://wp-custompress.com/2017/12/01/create-homepage-using-custompress/" target="_blank">How to create homepage using SiteOrigin Page Builder?</a>
                     </div>
 
                 </div>
