@@ -5,7 +5,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 
 Requires at least: 4.0
 Tested up to: 4.9.1
-Stable tag: 1.0.7
+Stable tag: 1.0.9
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl.html
 
@@ -38,7 +38,10 @@ CustomPress includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
 
-= 1.0.8 - Dec 02 2017 =
+= 1.0.9 - Dec 06 2017 =
+* Update screenshot and readme.txt
+
+= 1.0.8 - Dec 06 2017 =
 * Add welcome notice after theme activation
 * Bug Fix: Fix navigation button HTML on archive pages
 * Bug Fix: Layout Customizer - Footer Spacing
@@ -66,6 +69,6 @@ CustomPress includes support for Infinite Scroll in Jetpack.
 * milligram.css https://milligram.io/, Designed by CJ Patoilo, [MIT](http://opensource.org/licenses/MIT)
 * slicknav http://slicknav.io/, Copyright (c) 2016 Josh Cope, [MIT](http://opensource.org/licenses/MIT)
 * kirki https://aristath.github.io/kirki/, Copyright (c) 2017 Aristeides Stathopoulos, [MIT](http://opensource.org/licenses/MIT)
-* Theme screenshot image - https://pixabay.com/en/box-card-celebrate-celebration-2953722/, [CC0 Creative Commons](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-* Theme screenshot image 2 - https://pixabay.com/en/cup-drinks-business-coffee-shop-2884023/, [CC0 Creative Commons](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+* Theme screenshot image - https://pixabay.com/en/bmw-wheel-vehicle-transport-2964072/, [CC0 Creative Commons](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+* Theme screenshot image 2 - https://pixabay.com/en/office-freelancer-computer-business-625892/, [CC0 Creative Commons](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 * TGM Plugin Activation http://tgmpluginactivation.com/ [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)

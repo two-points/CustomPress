@@ -4,7 +4,7 @@ Theme URI: https://wp-custompress.com
 Author: TwoPoints
 Author URI:
 Description: CustomPress is one of the most customizable WordPress themes ever. You can use WordPress Customizer with live preview to edit almost any setting on your website. It is lightweight, fast, fully responsive and customizable. It works on all devices, resolutions & all latest browsers. CustomPress is a well-coded, well-supported solid platform to kick-off your blog website. It also works well with all WordPress page builders like SiteOrigin, Beaver Builder, Elementor etc. The main style.css file is just 20kb (less than 10kb gzipped) including styling for responsive media queries.
-Version: 1.0.8
+Version: 1.0.9
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl.html
 Text Domain: custompress
@@ -165,7 +165,7 @@ body { background: #efefef; word-wrap: break-word; font-family: -apple-system, B
 
 button, input, optgroup, select, textarea { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif; font-weight: 400; font-style: normal; color: #606c76; }
 
-h1, h2, h3, h4, h5, h6 { font-weight: 500; color: #343434; }
+h1, h2, h3, h4, h5, h6 { font-weight: 700; color: #343434; }
 
 input[type="button"], input[type="submit"], input[type="reset"], button { border-radius: 0; }
 
