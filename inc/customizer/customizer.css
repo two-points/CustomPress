@@ -1,3 +1,14 @@
 .customize-control {
     margin-bottom: 22px;
 }
+#accordion-section-custom_pro_bar .accordion-section-title {
+    background: #006799;
+    color: #fff;
+}
+#accordion-section-custom_pro_bar .accordion-section-title::after {
+    color: #fff;
+}
+#customize-control-custompress_pro_features ul {
+    list-style: disc;
+    padding-left: 20px;
+}

@@ -38,6 +38,12 @@ CustomPress includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
 
+= 1.0.8 - Dec 02 2017 =
+* Add welcome notice after theme activation
+* Bug Fix: Fix navigation button HTML on archive pages
+* Bug Fix: Layout Customizer - Footer Spacing
+* Bug Fix: Footer Settings - Customize Footer Left Text
+
 = 1.0.7 - Dec 02 2017 =
 * Add template import video to help page
 

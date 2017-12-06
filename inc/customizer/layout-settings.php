@@ -266,7 +266,7 @@ CustomPress_Kirki::add_field( 'custompress_theme', array(
 	),
     'output' => array(
 		array(
-			'element'  => array( '.upper-footer' ),
+			'element'  => array( '.site-footer' ),
 			'property' => 'padding'
 		),
 	),

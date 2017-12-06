@@ -86,3 +86,16 @@ function custompress_admin_style() {
 	wp_enqueue_style( 'custompress-admin', get_template_directory_uri() . '/css/custompress-admin.css' );
 }
 add_action( 'admin_init' , 'custompress_admin_style' );
+
+
+/**
+* Welcome notice to help user
+*/
+function custompress_greet_user() {
+	$help_url = esc_url( admin_url( 'themes.php?page=about-custompress' ) );
+	echo '<div class="notice notice-success is-dismissible">';
+	wp_kses_post( _e( '<p>Welcome! Thank you for choosing CustomPress. We are always there to help you. Just click on "Theme Help" link in admin bar if you need anything and reach out to us.</p>', 'custompress' ) );
+	echo "<p><a href='$help_url' class='button button-primary'>";
+	esc_html_e( 'Get started with CustomPress', 'custompress' );
+	echo '</a></p></div>';
+}

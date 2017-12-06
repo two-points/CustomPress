@@ -29,7 +29,10 @@ get_header(); ?>
 
 					endwhile;
 
-					the_posts_navigation();
+					the_posts_navigation( array(
+						'next_text'         => __( '<span class="button">Newer Posts</span>', 'custompress' ),
+						'prev_text'         => __( '<span class="button">Older Posts</span>', 'custompress' ),
+					) );
 
 				else :
 

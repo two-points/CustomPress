@@ -179,6 +179,18 @@ function custompress_excerpt_length( $length ) {
 add_filter( 'excerpt_length', 'custompress_excerpt_length', 999 );
 
 
+/**
+ * Welcome notice to help user
+ */
+function custompress_admin_notice(){
+	if ( is_admin() && isset($_GET['activated']) && 'themes.php' == $GLOBALS['pagenow'] ) {
+		custompress_greet_user();
+	}
+}
+add_action('admin_notices', 'custompress_admin_notice');
+
+
+
 // Implement the Custom Header feature.
 require get_template_directory() . '/inc/custom-header.php';
 

@@ -35,14 +35,7 @@
 										<?php dynamic_sidebar( 'middle-lower-footer' ); ?>
 									</div>
 				                <?php endif; ?>
-								<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'custompress' ) ); ?>"><?php
-									/* translators: %s: CMS name, i.e. WordPress. */
-									printf( esc_html__( 'Proudly powered by %s', 'custompress' ), 'WordPress' );
-								?></a>
-								<?php
-									/* translators: 1: Theme name, 2: Theme author. */
-									printf( esc_html__( 'Theme: %1$s by %2$s.', 'custompress' ), 'custompress', '<a href="http://two-points.com/">TwoPoints</a>' );
-								?>
+								<p class="mb-0"><?php echo wp_kses_post( get_theme_mod( 'custom_footer_left', '(c) Copyright 2017 - All Rights Reserved.' ) ) ?> <?php wp_kses_post( _e('<a href="https://wp-custompress.com/">CustomPress Theme</a> by TwoPoints', 'custompress') )  ?></p>
 							</div>
 						</div>
 						<!-- /.column -->
@@ -55,7 +48,7 @@
 								<div class="<?php //if ( get_theme_mod( 'footer_in_container' ) ) : echo 'site-footer'; endif; ?>">
 									<div class="row">
 										<div class="column">
-											<p class="mb-0"><?php esc_html_e( '(c) Copyright 2017 - All Rights Reserved', 'custompress' ) ?></p>
+											<p class="mb-0"><?php echo wp_kses_post( get_theme_mod( 'custom_footer_left', '(c) Copyright 2017 - All Rights Reserved.' ) ) ?></p>
 										</div>
 										<!-- /.column -->
 										<?php if ( is_active_sidebar( 'middle-lower-footer' ) ) : ?>
